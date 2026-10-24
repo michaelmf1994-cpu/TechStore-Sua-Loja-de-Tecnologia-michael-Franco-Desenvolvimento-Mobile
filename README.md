@@ -35,23 +35,19 @@ O sistema concede **10% de desconto** quando o subtotal da compra é igual ou su
 
 ## Capturas de tela e evidências
 
-As imagens do teste devem ser adicionadas à pasta `assets` do repositório. Foram registradas capturas da interface, das perguntas de quantidade e do resumo final. Após o envio, as referências abaixo mostrarão as imagens no GitHub.
+As capturas foram registradas durante a execução da TechStore no navegador. O repositório inclui imagens da interface, das perguntas de quantidade e do resumo final da compra.
 
-**Interface da loja**
+**Pergunta sobre o mouse**
 
-![Interface da TechStore](assets/screenshot.png)
-
-**Pergunta sobre o teclado**
-
-![Prompt de quantidade do teclado](assets/teste-teclado.png)
+![Pergunta de quantidade do mouse](Teste%2002%20-%20Pergunta%20sobre%20o%20Mouse.jpeg)
 
 **Pergunta sobre o headset**
 
-![Prompt de quantidade do headset](assets/teste-headset.png)
+![Pergunta de quantidade do headset](Teste%2001%20-%20teste-headset%20%E2%80%94%20pergunta%20sobre%20o%20headset..png)
 
-**Resumo final da compra**
+**Resultado da simulação de compra**
 
-![Resumo da compra e desconto](assets/teste-resultado.png)
+![Resumo final com subtotal, desconto e total](Teste%2002%20-%20Resultado%20final.jpeg)
 
 ## Testes realizados
 
@@ -69,18 +65,6 @@ No navegador, foi realizada uma simulação com **4 mouses**, **7 teclados** e *
 | **Total final** | | | **R$ 2.023,29** |
 
 **Resultado:** o resumo exibido no navegador corresponde aos cálculos esperados. As capturas também mostram a solicitação de quantidades por meio de janelas do navegador.
-
-### Testes adicionais a realizar
-
-Ainda é importante verificar e registrar os seguintes casos:
-
-- Digitar `0` para todos os produtos: deve aparecer a mensagem de que nenhum produto foi selecionado.
-- Digitar `1`, `0`, `0`: o total esperado é **R$ 59,90**, sem desconto.
-- Digitar `1`, `1`, `1`: subtotal **R$ 329,70**, desconto **R$ 32,97** e total **R$ 296,73**.
-- Digitar uma quantidade negativa ou letras: o sistema deve solicitar uma quantidade válida.
-- Cancelar uma das perguntas: a simulação deve ser encerrada.
-
-Esses casos estão descritos como **pendentes de confirmação**, e não como testes já realizados.
 
 ## Dificuldade encontrada
 
