@@ -21,12 +21,6 @@ Compras com subtotal a partir de **R$ 300,00** recebem **10% de desconto**.
 - CSS3: visual e adaptação a diferentes telas.
 - JavaScript: entrada das quantidades, cálculos, desconto e resultado.
 
-## Como executar
-1. Baixe ou clone este repositório.
-2. Abra o arquivo `index.html` no navegador.
-3. Clique em **Simular compra**.
-4. Informe as quantidades nas janelas exibidas. Use 0 para não comprar um item.
-5. Confira o resumo e o total no alerta final.
 
 ## Captura de tela
 > **Antes de entregar:** abra a página no navegador, tire uma captura real, salve como `assets/screenshot.png` e mantenha a referência abaixo.
