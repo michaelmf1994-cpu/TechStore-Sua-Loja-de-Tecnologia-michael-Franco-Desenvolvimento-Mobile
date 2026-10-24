@@ -3,72 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="TechStore: acessórios para estudar, trabalhar e se divertir. Simule sua compra.">
-  <title>TechStore | Sua Loja de Tecnologia</title>
+  <meta name="theme-color" content="#10192b">
+  <meta name="description" content="TechStore: acessórios de tecnologia para o dia a dia. Simule sua compra.">
+  <title>TechStore | Tecnologia que acompanha você</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
+  <div class="topline">TECHSTORE <span>•</span> SUA LOJA DE TECNOLOGIA</div>
   <header class="topo">
-    <div class="conteudo navegacao">
-      <a class="marca" href="#" aria-label="TechStore, início"><span class="marca-icone" aria-hidden="true">✦</span> TechStore<span class="marca-ponto">.</span></a>
-      <nav aria-label="Navegação principal">
+    <div class="container nav">
+      <a href="#" class="logo" aria-label="TechStore, página inicial"><span class="logo-icon">✳</span> techstore<span class="logo-dot">.</span></a>
+      <nav aria-label="Menu principal">
         <a href="#produtos">Produtos</a>
-        <a class="link-destaque" href="#simulador">Simular compra <span aria-hidden="true">↗</span></a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#simulador" class="nav-cta">Simular compra <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="conteudo hero-conteudo">
-        <span class="etiqueta">ACESSÓRIOS PARA O SEU DIA A DIA</span>
-        <h1>Tecnologia simples.<br><span>Seu dia mais fácil.</span></h1>
-        <p>Encontre acessórios para estudar, trabalhar e se divertir. Escolha seus favoritos e descubra o valor da sua compra.</p>
-        <a class="botao botao-escuro" href="#produtos">Explorar produtos <span aria-hidden="true">→</span></a>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="live-dot"></span> SUA ROTINA, MAIS CONECTADA</span>
+          <h1>O próximo nível da sua <em>tecnologia.</em></h1>
+          <p>Acessórios que combinam com seu ritmo. Explore, escolha seus favoritos e simule sua compra em poucos cliques.</p>
+          <div class="hero-actions">
+            <a href="#produtos" class="btn btn-light">Explorar produtos <span aria-hidden="true">↗</span></a>
+            <a href="#simulador" class="text-link">Simular agora <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-foot"><span>03 produtos selecionados</span><span>•</span><span>10% OFF acima de R$ 300</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-ring art-ring-one"></div><div class="art-ring art-ring-two"></div>
+          <div class="art-card art-mouse"><span>🖱️</span></div>
+          <div class="art-card art-headset"><span>🎧</span></div>
+          <div class="art-card art-keyboard"><span>⌨️</span></div>
+          <div class="art-label">TECH <strong>ESSENTIALS</strong><small>2026 COLLECTION</small></div>
+        </div>
       </div>
     </section>
 
-    <section class="secao conteudo" id="produtos" aria-labelledby="titulo-produtos">
-      <div class="secao-cabecalho">
-        <div><span class="sobretitulo">NOSSA SELEÇÃO</span><h2 id="titulo-produtos">Produtos em destaque</h2></div>
-        <p>Escolhas práticas para sua rotina.</p>
+    <section class="features" aria-label="Destaques da loja">
+      <div class="container features-grid">
+        <div><span class="feature-icon">✧</span><p><strong>Seleção inteligente</strong><small>Essenciais para sua rotina</small></p></div>
+        <div><span class="feature-icon">◎</span><p><strong>Simulação rápida</strong><small>Confira os valores na hora</small></p></div>
+        <div><span class="feature-icon">%</span><p><strong>10% de desconto</strong><small>Em compras a partir de R$ 300</small></p></div>
       </div>
-      <div class="produtos">
-        <article class="produto">
-          <div class="produto-visual" aria-hidden="true"><span>🖱️</span></div>
-          <div class="produto-corpo"><span class="categoria">PERIFÉRICOS</span><h3>Mouse sem fio</h3><p>Praticidade e conforto para suas atividades.</p><div class="produto-rodape"><strong>R$ 59,90</strong><span>01</span></div></div>
+    </section>
+
+    <section id="produtos" class="container produtos-secao" aria-labelledby="titulo-produtos">
+      <div class="section-heading">
+        <div><span class="section-kicker">ESCOLHIDOS PARA VOCÊ</span><h2 id="titulo-produtos">Explore nossos produtos<span class="period">.</span></h2></div>
+        <p>O que você precisa, com preço claro e sem complicação.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-media media-mouse"><span class="product-tag">ESSENCIAL</span><span class="product-emoji" aria-hidden="true">🖱️</span><span class="media-number">01 / 03</span></div>
+          <div class="product-info"><span class="product-category">ACESSÓRIOS</span><h3>Mouse sem fio</h3><p>Praticidade e conforto para suas atividades.</p><div class="product-bottom"><strong>R$ 59,90</strong><span>↗</span></div></div>
         </article>
-        <article class="produto">
-          <div class="produto-visual" aria-hidden="true"><span>⌨️</span></div>
-          <div class="produto-corpo"><span class="categoria">PERIFÉRICOS</span><h3>Teclado mecânico</h3><p>Precisão e agilidade para digitar ou jogar.</p><div class="produto-rodape"><strong>R$ 149,90</strong><span>02</span></div></div>
+        <article class="product-card">
+          <div class="product-media media-keyboard"><span class="product-tag">MAIS VERSÁTIL</span><span class="product-emoji" aria-hidden="true">⌨️</span><span class="media-number">02 / 03</span></div>
+          <div class="product-info"><span class="product-category">ACESSÓRIOS</span><h3>Teclado mecânico</h3><p>Precisão e agilidade para digitar ou jogar.</p><div class="product-bottom"><strong>R$ 149,90</strong><span>↗</span></div></div>
         </article>
-        <article class="produto">
-          <div class="produto-visual" aria-hidden="true"><span>🎧</span></div>
-          <div class="produto-corpo"><span class="categoria">ÁUDIO</span><h3>Headset gamer</h3><p>Som envolvente e microfone para se comunicar.</p><div class="produto-rodape"><strong>R$ 119,90</strong><span>03</span></div></div>
+        <article class="product-card">
+          <div class="product-media media-headset"><span class="product-tag">ÁUDIO</span><span class="product-emoji" aria-hidden="true">🎧</span><span class="media-number">03 / 03</span></div>
+          <div class="product-info"><span class="product-category">ACESSÓRIOS</span><h3>Headset gamer</h3><p>Som envolvente e microfone para se comunicar.</p><div class="product-bottom"><strong>R$ 119,90</strong><span>↗</span></div></div>
         </article>
       </div>
     </section>
 
-    <section class="conteudo secao" id="simulador" aria-labelledby="titulo-simulador">
-      <div class="simulador">
-        <div class="simulador-texto">
-          <span class="sobretitulo">EXPERIMENTE AGORA</span>
-          <h2 id="titulo-simulador">Quanto fica sua compra?</h2>
-          <p>Clique em <strong>Simular compra</strong> e informe a quantidade de cada produto nas janelas que aparecerem. Digite <strong>0</strong> para não comprar um item.</p>
-          <p class="desconto">✦ 10% de desconto em compras a partir de R$ 300,00.</p>
-        </div>
-        <div class="simulador-acao">
-          <button type="button" class="botao botao-escuro" onclick="simularCompra()">Simular compra <span aria-hidden="true">→</span></button>
-          <small>Simulação educativa, sem pagamentos reais.</small>
-        </div>
+    <section id="como-funciona" class="container steps" aria-labelledby="steps-title">
+      <div class="steps-intro"><span class="section-kicker">É MUITO SIMPLES</span><h2 id="steps-title">Sua compra em 3 passos.</h2></div>
+      <div class="steps-grid"><div><b>01</b><strong>Explore</strong><span>Conheça os produtos e preços.</span></div><div><b>02</b><strong>Informe</strong><span>Digite as quantidades desejadas.</span></div><div><b>03</b><strong>Confira</strong><span>Veja o total e o desconto.</span></div></div>
+    </section>
+
+    <section class="container simulator-section" id="simulador" aria-labelledby="titulo-simulador">
+      <div class="simulator-panel">
+        <div class="simulator-copy"><span class="section-kicker">PRONTO PARA COMEÇAR?</span><h2 id="titulo-simulador">Monte sua compra.<br><em>Veja quanto fica.</em></h2><p>Clique no botão, informe a quantidade de cada produto nas janelas que aparecerem e digite <strong>0</strong> quando não quiser comprar um item.</p><div class="discount-pill">✦ 10% OFF a partir de R$ 300,00</div></div>
+        <div class="simulator-action"><span class="action-icon" aria-hidden="true">↗</span><button class="btn btn-dark" type="button" onclick="simularCompra()">Simular compra <span aria-hidden="true">→</span></button><small>Simulação educativa. Nenhum pagamento real.</small></div>
       </div>
     </section>
   </main>
 
-  <footer class="rodape">
-    <div class="conteudo rodape-conteudo"><span><strong>TechStore.</strong> Tecnologia para você.</span><span>Desenvolvido por MICHAEL FRANCO PACHECO OLIVEIRA · Desenvolvimento Mobile · 2026</span></div>
-  </footer>
+  <footer class="footer"><div class="container footer-content"><div><strong>techstore<span>.</span></strong><small>Tecnologia para o seu dia a dia.</small></div><p>Desenvolvido por MICHAEL FRANCO PACHECO OLIVEIRA<br>Trilha Desenvolvimento Mobile • 2026</p></div></footer>
 </body>
 </html>
