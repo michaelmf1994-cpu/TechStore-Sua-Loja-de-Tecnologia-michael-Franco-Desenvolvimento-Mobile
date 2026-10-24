@@ -39,7 +39,7 @@ As capturas foram registradas durante a execução da TechStore no navegador. O 
 
 **Interface da TechStore**
 
-![Página inicial da TechStore](screenshot.jpeg)
+
 
 **Pergunta sobre o headset**
 
