@@ -77,7 +77,3 @@ Com esse desafio, tive a oportunidade de desenvolver meus primeiros conhecimento
 ## Como utilizei a inteligência artificial
 
 Utilizei a inteligência artificial como ferramenta de apoio durante o desenvolvimento do desafio. Ela me ajudou a compreender melhor as atividades, esclarecer dúvidas e acompanhar explicações passo a passo quando encontrava dificuldades. Também contribuiu com ideias para a organização e o visual da interface da TechStore, além de auxiliar na elaboração e revisão do código. Durante o processo, fui adaptando as orientações ao projeto e verificando seu funcionamento no navegador, realizando simulações de compra para conferir os cálculos e os resultados apresentados. Essa experiência me mostrou que a inteligência artificial pode ajudar no aprendizado, mas que é importante entender e testar aquilo que está sendo desenvolvido.
-
-## Observação
-
-Este é um projeto educativo de simulação. Não realiza pagamentos nem compras reais.
