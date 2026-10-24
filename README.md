@@ -37,9 +37,9 @@ O sistema concede **10% de desconto** quando o subtotal da compra é igual ou su
 
 As capturas foram registradas durante a execução da TechStore no navegador. O repositório inclui imagens da interface, das perguntas de quantidade e do resumo final da compra.
 
-**Pergunta sobre o mouse**
+**Interface da TechStore**
 
-![Pergunta de quantidade do mouse](Teste%2002%20-%20Pergunta%20sobre%20o%20Mouse.jpeg)
+![Página inicial da TechStore](screenshot.png)
 
 **Pergunta sobre o headset**
 
