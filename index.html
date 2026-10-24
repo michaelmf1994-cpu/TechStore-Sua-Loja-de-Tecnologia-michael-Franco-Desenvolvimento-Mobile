@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore | Sua Loja de Tecnologia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="conteudo">
+      <p class="marca">⚡ TechStore</p>
+      <h1>Tecnologia para o seu dia a dia</h1>
+      <p>Encontre acessórios para estudar, trabalhar e se divertir.</p>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <section aria-labelledby="titulo-produtos">
+      <h2 id="titulo-produtos">Nossos produtos</h2>
+      <div class="produtos">
+        <article class="produto">
+          <div class="icone" aria-hidden="true">🖱️</div>
+          <h3>Mouse sem fio</h3>
+          <p>Praticidade e conforto para suas atividades.</p>
+          <strong>R$ 59,90</strong>
+        </article>
+        <article class="produto">
+          <div class="icone" aria-hidden="true">⌨️</div>
+          <h3>Teclado mecânico</h3>
+          <p>Precisão e agilidade para digitar ou jogar.</p>
+          <strong>R$ 149,90</strong>
+        </article>
+        <article class="produto">
+          <div class="icone" aria-hidden="true">🎧</div>
+          <h3>Headset gamer</h3>
+          <p>Som envolvente e microfone para se comunicar.</p>
+          <strong>R$ 119,90</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="simulador" aria-labelledby="titulo-simulador">
+      <h2 id="titulo-simulador">Simule sua compra</h2>
+      <p>Clique no botão e informe a quantidade de cada produto nas janelas que aparecerem. Digite <strong>0</strong> para não comprar um item.</p>
+      <p class="desconto">🎁 Ganhe 10% de desconto em compras a partir de R$ 300,00!</p>
+      <button type="button" onclick="simularCompra()">Simular compra</button>
+      <p class="aviso">Esta é uma simulação: nenhuma compra real será realizada.</p>
+    </section>
+  </main>
+
+  <footer><p>Desenvolvido por: <strong>SEU NOME AQUI</strong> | Trilha de Desenvolvimento Web • 2026</p></footer>
+</body>
+</html>

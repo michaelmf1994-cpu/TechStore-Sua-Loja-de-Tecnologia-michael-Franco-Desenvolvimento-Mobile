@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #1c2540; background: #f4f7fc; line-height: 1.6; }
+.conteudo { width: min(1100px, 92%); margin: 0 auto; }
+.cabecalho { padding: 64px 0; color: white; background: linear-gradient(125deg, #15254d, #4d53c8); text-align: center; }
+.marca { font-size: 1.4rem; font-weight: bold; margin: 0 0 12px; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 10px; }
+h2 { font-size: 1.7rem; margin: 0 0 24px; }
+h3 { margin: 10px 0; }
+main { padding: 48px 0 60px; }
+.produtos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.produto { background: white; padding: 28px; border-radius: 18px; box-shadow: 0 8px 24px rgba(18, 30, 65, .08); transition: transform .2s; }
+.produto:hover { transform: translateY(-4px); }
+.produto p { color: #5b657c; min-height: 55px; }
+.produto strong { color: #3f45b6; font-size: 1.5rem; }
+.icone { display: grid; place-items: center; background: #edf0ff; width: 74px; height: 74px; border-radius: 15px; font-size: 2.4rem; }
+.simulador { text-align: center; margin-top: 44px; padding: 36px 25px; background: white; border-radius: 18px; box-shadow: 0 8px 24px rgba(18, 30, 65, .08); }
+.simulador > p { max-width: 680px; margin: 0 auto 18px; }
+.desconto { color: #285a45; font-weight: bold; }
+button { padding: 15px 30px; border: 0; border-radius: 10px; background: #4248b9; color: white; font-weight: bold; font-size: 1rem; cursor: pointer; }
+button:hover, button:focus-visible { background: #30369c; }
+.aviso { font-size: .85rem; color: #69738a; margin-top: 16px !important; }
+footer { text-align: center; padding: 24px 12px; background: #15254d; color: white; }
+@media (max-width: 700px) { .produtos { grid-template-columns: 1fr; } .produto p { min-height: auto; } .cabecalho { padding: 42px 0; } }
