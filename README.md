@@ -1,7 +1,7 @@
 # TechStore — Simulador de Compras
 
-**Aluno(a):** SEU NOME AQUI  
-**Trilha:** PREENCHER NOME OFICIAL DA TRILHA  
+**Aluno(a):** MICHAEL FRANCO PACHECO OLIVEIRA  
+**Trilha:** Desenvolvimento Mobile  
 **Desafio:** Minha Loja — Simulador de Compras
 
 ## Apresentação
@@ -48,8 +48,6 @@ Compras com subtotal a partir de **R$ 300,00** recebem **10% de desconto**.
 ## Dificuldade encontrada e aprendizado
 > **Escrever com suas palavras depois de testar:** qual parte foi mais difícil? O que você aprendeu sobre `prompt()`, `Number()`, condições ou cálculos?
 
-## Uso de inteligência artificial
-Utilizei o ChatGPT como apoio para propor a estrutura da loja, criar uma versão inicial dos arquivos e explicar a lógica da simulação. **Antes da entrega, descrever aqui as adaptações que realmente fiz e como conferi os resultados no navegador.**
 
 ## Observação
 Projeto educativo. Não realiza pagamentos nem compras reais.
